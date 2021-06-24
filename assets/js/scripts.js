@@ -110,14 +110,14 @@ const ULTIMO_NIVEL = 10
     }      
   }
   ganoElJuego() {
-    swal('AlterU', 'Felicitaciones Ganaste el Juego', 'success')
+    swal('AlterU', '¡Bieeen! Felicitaciones Ganaste el Juego', 'success')
     .then(()=> {
       this.inicializar()
     })
   }
 
   perdioElJuego() {
-    swal('AlterU', 'Lo sentimos perdiste el Juego :(', 'error')
+    swal('AlterU', '¡Oooh! No, lo sentimos perdiste el Juego :(', 'error')
     .then(()=> {
       this.eliminarEventosClik()
       this.inicializar()

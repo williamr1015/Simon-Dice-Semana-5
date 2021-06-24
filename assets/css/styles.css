@@ -4,7 +4,7 @@
       }
       body {
         margin: 0;
-        background: #dedede;
+        background: linear-gradient(135deg, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 53%,#4e4e4e 76%,#383838 87%,#1b1b1b 100%);
         display: flex;
         align-items: center;
         height: 100vh;
@@ -65,44 +65,26 @@
       .verde.light {
         background: #badc58;
       }
-
-      .btn-start {
-        width: 400px;
-        height: 100px;
-        background: #ecf0f1;
-        color: #2c3e50;
-        font-size: 2.5rem;
-        position: absolute;
-        top: calc(50% - 50px);
-        left: calc(50% - 200px);
-      }
-
       .hide {
         display: none;
       }
       .btn-start {
         cursor: pointer;
-        width: 420px;
-        height: 100px;
-        background: #ecf0f1;
-        color: #2c3e50;
+        width: 543px;
+        height: 120px;
+        background: linear-gradient(45deg, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+        color: #020303;
         border: none;
         border-bottom: 4px solid #c4c6c7;
         border-radius: 8px;
-        font-size: 3em;
+        font-size: 3.2em;
         position: absolute;
-        top: calc(50% - 50px);
-        left: calc(50% - 210px);
-        transition: .5s;
+        top: calc(50% - 60px);
+        left: calc(50% - 270px);
+        transition: 1s;
         outline: none;
       }
-  
-      .btn-start:hover {
-        color: #ecf0f1;
-        background: #2c3e50;
-        border-bottom: 4px solid #1f3346;
-      }
-      
+    
       .btn-start:active {
         transform: scale(.95);
       }
